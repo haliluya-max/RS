@@ -41,4 +41,4 @@ test_ss_x = ss.transform(test_x)
 cart_d = DecisionTreeClassifier()#tree.py 还有决策回归....
 cart_d.fit(train_ss_x, train_y)
 predict_y1=cart_d.predict(test_ss_x)
-print('SVM准确率: %0.4lf' % accuracy_score(predict_y1, test_y))
+print('SVM准确率: %0.4lf' % accuracy_score(predict_y1, test_y)) 
